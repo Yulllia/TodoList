@@ -8,7 +8,6 @@ export const ListItem = styled.li`
         display: flex;
     }
 `
-
 export const Item = styled.p`
     margin-right: 15px;
     font-size: 25px;

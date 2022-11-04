@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import ModalPopup from '../modal/ModalPopup';
 import { TodoList } from '../todoInput/interfaces';
 import { CheckBox, Item, ListItem } from './Todoitem.styles';
+import styled from "styled-components";
+
+
 
 function TodoItem(props: { item: TodoList, id: number[], list: TodoList[], setList: (checkedItems: TodoList[])=>void, checkedItems: boolean[] | undefined, setCheckedItems:  (checkedItems: boolean[])=>void} ) {
     const { title, description, id } = props.item;

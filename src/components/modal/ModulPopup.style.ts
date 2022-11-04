@@ -50,7 +50,7 @@ export const Content = styled.div`
     & > div {
         margin: 20px 10px 10px 10px;
         font-size: 24px;
-    }
+    };
 `;
 
 export const Close = styled.button`
@@ -70,4 +70,5 @@ export const SpanStyle = styled.span`
    color: blue;
    margin-right: 10px;
 `;
+
 
